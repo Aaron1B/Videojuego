@@ -10,4 +10,4 @@ class Player(Character):
             super().move(dx, dy)
 
     def shoot(self):
-        pass  # Implementar disparo más adelante
+        pass  

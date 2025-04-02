@@ -19,7 +19,7 @@ class Game:
         for opponent in self.opponents:
             if opponent.is_alive and opponent.is_star:
                 print(f"¡El jugador ha ganado {self.player.score} puntos!")
-                # Aquí podrías agregar más lógica si lo necesitas
+                
 
     def end_game(self):
         self.is_running = False

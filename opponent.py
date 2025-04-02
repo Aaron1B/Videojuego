@@ -10,10 +10,9 @@ class Opponent(Character):
             super().move(dx, dy)
 
     def shoot(self):
-        pass  # Implementar disparo más adelante
+        pass  
 
     def convert_to_star(self, player):
-        """Convierte al oponente en estrella y aumenta la puntuación del jugador."""
         if not self.is_star:
             self.is_star = True
-            player.score += 10  # Incrementar la puntuación por convertir al enemigo en estrella
+            player.score += 10  
