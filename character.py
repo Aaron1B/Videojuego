@@ -11,10 +11,10 @@ class Character(Entity):
             super().move(dx, dy)
 
     def shoot(self):
-        pass  # Implementar más adelante
+        pass  
 
     def collide(self, other):
-        if self.rect.colliderect(other.rect):  # Asumiendo que usarás pygame.Rect para colisiones
+        if self.rect.colliderect(other.rect): 
             self.lives -= 1
             if self.lives <= 0:
                 self.is_alive = False
